@@ -386,12 +386,26 @@ html, body{
 }
 
 @media (max-width: 1000px){
+    html,body{
+        height: auto;
+        align-items: normal;
+        display: block;
+    }
+
+    .center_osnova{
+        height: auto;
+    }
+
+    .section2{
+        padding: 0;
+    }
+
     .img_start{
         display: none;
     }
 
     .contend {
-        width: 75%;
+        width: 65%;
     }
 
     .inner{
@@ -427,6 +441,14 @@ html, body{
     .p2{
         font-size: 24px;
         padding-top: 9px;
+    }
+
+    .text{
+        margin-top: 20px;
+        line-height: 70px;
+        font-size: 40px;
+        font-weight: 600;
+        margin-bottom: 50px;
     }
 }
 
